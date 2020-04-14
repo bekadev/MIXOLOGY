@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+/* font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif; */
+.header {
+    background-image: url(../img/bg__img.png);
+    height: 563px;
+    background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 100px;
+}
+.container {
+    width: 963px;
+    margin: 0 auto;
+}
+.header-top {
+	display: flex;
+	justify-content: space-between;
+}
+.header-top__logo {
+	margin-top: 22px;
+}
+.header-top__desc {
+	font-size: 18px;
+	line-height: 20px;
+	color: #222222;
+	margin-top: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.header-top__desc span {
+	text-decoration-line: underline;
+} 
+.header-main {
+	text-align: center;
+}
+.header-main__title {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 48px;
+	color: #222222;
+	font-family: 'Playfair Display', serif;
+	margin-top: 100px;
+}
+.header-main__desc {
+	font-size: 24px;
+	line-height: 24px;
+	color: rgba(34, 34, 34, 0.75);
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 32px;
+}
+.header-main__btn a {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #F33D01;
+	border-radius: 48px;
+	padding: 20px 70px;
+	text-decoration: none;
+}
+.header-main__btn {
+	margin-top: 50px;
+}
+.block-item {
+	text-align: center;
+	height: 208px;
+}
+.block-item__desc {
+	margin-top: 32px;
+	font-size: 32px;
+	line-height: 36px;
+	color: #2F3035;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 24px;
+}
+.block-item__txt {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #86899B;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 100px;
+}
+.features {
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+.features-wrap {
+	display: flex;
+}
+.features-wrap__main-item__block {
+	display: flex;
+}
+.features-wrap__main-name {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #86899B;
+	font-family: 'Playfair Display', serif;
+}
+.features-wrap__main-title {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 36px;
+	color: #2F3035;
+	font-family: 'Playfair Display', serif;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.features-wrap__main-text {
+	font-size: 20px;
+	line-height: 24px;
+	color: rgba(47, 48, 53, 0.6);
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 436px;
+	margin-bottom: 60px;
+}
+.features-wrap__main-item__block-desc {
+	margin-left: 32px;
+}
+.features-wrap__main-item__block-desc__title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #2F3035;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 16px;
+}
+.features-wrap__main-item__block-desc__txt {
+	font-size: 20px;
+	line-height: 24px;
+	color: rgba(47, 48, 53, 0.6);
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 364px;
+}
+.comment {
+	margin-bottom: 130px;
+}
+.top {
+	margin-top: 40px;
+}
+.wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.ttop {
+	margin-top: 80px;
+}
+.footer p {
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #86899B;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
